@@ -136,6 +136,8 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/eig_test_node.cpp)
 add_executable(eig_test src/eig_test.cpp)
+add_executable(eig_test2 src/eig_test2.cpp)
+add_executable(Humanoid_Tree src/Humanoid_Tree.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
